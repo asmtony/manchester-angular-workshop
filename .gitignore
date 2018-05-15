@@ -3,3 +3,7 @@ node_modules
 02-angular-elements/hello-world/demo/main.js
 02-angular-elements/hello-world/demo/runtime.js
 02-angular-elements/hello-world/demo/scripts.js
+02-angular-elements/demo/runtime.js
+02-angular-elements/demo/main.js
+02-angular-elements/demo/polyfills.js
+02-angular-elements/demo/scripts.js

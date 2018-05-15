@@ -1,7 +1,3 @@
-# manchester-angular-workshop
-Sample code to accompany the Angular Elements series published in the Upgrade To Angular newletter.
-Subscribe here: https://darrylbrown.co.uk/category/angular-news/
+Follow along with this code @ https://darrylbrown.co.uk/angular-elements-part-1/
 
-
-https://darrylbrown.co.uk
-Twitter & LinkedIn: ConsultDarryl
+Subscribe to get original news, analysis and advice delivered to your inbox daily https://darrylbrown.co.uk/category/angular-news/
