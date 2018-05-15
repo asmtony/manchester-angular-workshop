@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HelloWorldPopupComponent } from './hello-world-popup/hello-world-popup.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HelloWorldPopupComponent
   ],
   imports: [
     BrowserModule
