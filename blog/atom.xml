@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
+	<title>Manchester Angular Workshop Blog</title>
 	<link href="https://github.com/ConsultDarryl/manchester-angular-workshop/blog/atom.xml" rel="self"/>
 	<link href="https://github.com/ConsultDarryl/manchester-angular-workshop/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
