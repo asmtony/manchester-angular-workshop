@@ -1,11 +1,4 @@
-import {
-  Component,
-  Input,
-  Output,
-  ViewEncapsulation,
-  OnInit,
-  EventEmitter
-} from "@angular/core";
+import { Component, Input, Output, ViewEncapsulation, OnInit, EventEmitter } from "@angular/core";
 
 @Component({
   selector: "hello-world",
@@ -16,10 +9,14 @@ import {
   encapsulation: ViewEncapsulation.Native
 })
 export class HelloWorldComponent implements OnInit {
+
   @Input() name: string;
   @Output() nameChange = new EventEmitter();
+
   changeName() {
     this.nameChange.emit(this.name);
   }
-  ngOnInit() {}
+
+  ngOnInit() {
+  }
 }

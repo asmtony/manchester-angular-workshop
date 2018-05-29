@@ -28,12 +28,11 @@ import { HelloWorldComponent } from "./hello-world/hello-world.component";
   entryComponents: [HelloWorldComponent]
 })
 export class AppModule {
-  constructor(private injector: Injector) { }
+  constructor(private injector: Injector) {
+  }
 
   ngDoBootstrap() {
-    const el = createCustomElement(HelloWorldComponent, {
-      injector: this.injector
-    });
-    customElements.define("hello-world", el);
+    const helloWorldCustomElement = createCustomElement(HelloWorldComponent, { injector: this.injector });
+    customElements.define("hello-world", helloWorldCustomElement);
   }
 }
